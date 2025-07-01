@@ -173,7 +173,7 @@ async function submitForm() {
   formData.append('full_picture', fullFile.value);
 
   try {
-    const response = await fetch('http://127.0.0.1:8000/api/user/submit/', {
+    const response = await fetch('http://api.aeelite.online/api/user/submit/', {
       method: 'POST',
       body: formData
     });
