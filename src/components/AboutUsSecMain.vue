@@ -4,7 +4,7 @@
       <h1 class="langar-regular text-7xl font-black mb-4">ABOUT US</h1>
       <div class="mb-20 h-fit">
         <h1 class="langar-regular text-4xl text-yellow-500 float-right mx-4">Foundation Story</h1>
-        <img class="sm:float-left w-full sm:w-60 ml-4" src="foundation-pic-1.jpg" alt="">
+        <img class="sm:float-left w-full sm:w-60 sm:ml-4" src="foundation-pic-1.jpg" alt="">
         <p>The premise of Ajayi Elebire Elite was founded on the memory and life of Olalekan Ajayi's father, Babatunde
           Ajayi, a.k.a Elebire, who passed on July 18, 2020. He was born in Ekiti State, Nigeria, on July 11, 1945.
           Babatunde was a great man of God who valued his family, community, and country, being that he was a retired
@@ -16,7 +16,7 @@
       </div>
       <div>
         <h1 class="langar-regular text-4xl text-yellow-500 float-left mx-4">Meet The Founder</h1>
-        <img class="w-full sm:w-96 ml-4 sm:float-right" src="/founder-pic-1.jpg" alt="">
+        <img class="w-full sm:w-96 sm:ml-4 sm:float-right" src="/founder-pic-1.jpg" alt="">
         <p>Olalekan Ajayi was born on May 5, 1992, in Shomolu Local Government Lagos, Nigeria. He spent most of his life
           in Nigeria until he won a basketball scholarship in 2009 that allowed him to further his education in the
           United States. In November of that year, he began his studies and athletic career at Quality Education Academy
