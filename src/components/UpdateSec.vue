@@ -7,7 +7,7 @@
     </h1>
     <div class="grid grid-cols-3 items-start gap-6 mx-6">
       <div v-for="update in updates" :key="update.id" class="space-y-4">
-        <img class="w-full" :src="`http://api.aeelite.online${update.event_picture}`" alt="">
+        <img class="w-full" :src="`https://api.aeelite.online${update.event_picture}`" alt="">
         <p v-if="update.event_date" class="langar-regular">{{ update.event_date }}</p>
         <h1 class="text-2xl font-bold mb-4">{{ update.event_theme }}</h1>
         <p v-if="update.description" class="mb-4">{{ update.description }}</p>
@@ -23,7 +23,7 @@ import { ref, onMounted } from 'vue'
 const updates = ref([])
 
 onMounted(async () => {
-  const res = await fetch('http://api.aeelite.online/api/updates/latest/')
+  const res = await fetch('https://api.aeelite.online/api/updates/latest/')
   updates.value = await res.json()
 })
 </script>
