@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-20 my-10">
+  <div class="mx-0 sm:mx-20 my-10">
     <div>
-      <p class="langar-regular text-6xl">THE BIG BANG 2025!!!</p>
+      <p class="langar-regular text-2xl sm:text-6xl">THE BIG BANG 2025!!!</p>
     </div>
     <div class="sm:flex sm:justify-between bg-transparent">
       <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-20 overflow-hidden fill-current text-yellow-200 invisible sm:visible">
@@ -18,12 +18,12 @@
         <p class="-mt-16 sm:mt-4">
           Ready to level up your game? The Ajayi Elebire Elite Basketball Camp is where passion meets performance. Train with top-tier coaches, push your limits, and learn the mindset of champions. From intense drills to real-game situations, every session is designed to help you grow stronger, faster, and smarter on the court.
         </p>
-        <p class="mt-4">
+        <p class="mt-2 sm:mt-4">
           Whether you're chasing a scholarship, going pro, or just love the game — this is your chance to shine.
         </p>
         <strong class="mt-4">Take your first step toward greatness!</strong>
         <button class="flex flex-row mt-4">
-          <a class="flex flex-row langar-regular text-2xl text-yellow-500 hover:text-yellow-300 gap-hover" :href="`/register`">
+          <a class="flex flex-row langar-regular text-lg sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover" :href="`/register`">
             <p class="transition-colors duration-300">REGISTER NOW</p>
             <img src="/right-arrow-black.png" width="32">
           </a>
