@@ -1,6 +1,6 @@
 <template>
   <section class="bg-yellow-500">
-    <div class="ml-10 py-10 space-b-10 pb-20">
+    <div class="sm:ml-10 py-10 space-b-10 pb-20">
       <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
       <div class="flex flex-row justify-between gap-x-4">
         <div>
