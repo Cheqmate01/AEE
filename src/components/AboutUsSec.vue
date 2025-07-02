@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-yellow-500">
-    <div class="mx-3 sm:ml-10 py-10 space-b-10">
-      <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
-      <div class="sm:flex sm:flex-row justify-between gap-x-4">
+  <section class="bg-yellow-500 mx-3 sm:ml-10 py-10 space-b-10">
+    <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
+    <div class="sm:flex sm:flex-row justify-between gap-x-4">
+      <div class="">
         <div class=" pb-20">
           <p class="leading-tight">
             The premise of Ajayi Elebire Elite was founded on the memory and life of Olalekan Ajayi's father, Babatunde Ajayi, a.k.a Elebire.
@@ -17,8 +17,8 @@
             </a>
           </button>
         </div>
-        <img class="w-full sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
       </div>
+      <img class="w-full sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
     </div>
   </section>
 </template>
