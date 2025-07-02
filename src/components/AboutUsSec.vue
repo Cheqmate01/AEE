@@ -1,6 +1,6 @@
 <template>
   <section class="space-b-10 sm:flex sm:flex-row justify-between">
-    <div class="bg-yellow-500 pl-3 sm:pl-10 py-10">
+    <div class="bg-yellow-500 pl-3 sm:px-10 py-10">
       <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
       <div class="">
         <div class="">
@@ -21,6 +21,6 @@
         </div>
       </div>
     </div>
-    <img class="w-full sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
+    <img class="w-80 sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
   </section>
 </template>
