@@ -1,7 +1,7 @@
 <template>
   <section class="space-b-10 sm:flex sm:flex-row justify-between">
     <div class="bg-yellow-500 pl-3 sm:px-10 pt-10 pb-32 sm:mb-0">
-      <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
+      <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4 ml-10 sm:ml-0">ABOUT US</h1>
       <div class="">
         <div class="">
           <div class="">
