@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-5 sm:mx-20 my-10">
+  <div class="mx-5 sm:mx-20 my-6 sm:my-10">
     <div>
-      <p class="langar-regular text-2xl sm:text-6xl">THE BIG BANG 2025!!!</p>
+      <p class="langar-regular text-3xl sm:text-6xl">THE BIG BANG 2025!!!</p>
     </div>
     <div class="sm:flex sm:justify-between bg-transparent">
       <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-20 overflow-hidden fill-current text-yellow-200 invisible sm:visible">
@@ -23,7 +23,7 @@
         </p>
         <strong class="mt-4">Take your first step toward greatness!</strong>
         <button class="flex flex-row mt-4">
-          <a class="flex flex-row langar-regular text-lg sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover" :href="`/register`">
+          <a class="flex flex-row langar-regular text-lg sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover items-center" :href="`/register`">
             <p class="transition-colors duration-300">REGISTER NOW</p>
             <img src="/right-arrow-black.png" width="32">
           </a>
@@ -35,10 +35,14 @@
 
 <style>
 .gap-hover {
-  gap: 0;
+  gap: 0.5rem;
   transition: gap 0.3s;
 }
 .gap-hover:hover {
-  gap: 1.5rem; /* same as Tailwind's gap-x-7 */
+  gap: 1.5rem;
+}
+.gap-hover:active {
+  gap: 0.5rem;
+  outline: none;
 }
 </style>
