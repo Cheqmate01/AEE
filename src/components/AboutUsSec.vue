@@ -1,6 +1,6 @@
 <template>
   <section class="space-b-10 sm:flex sm:flex-row justify-between">
-    <div class="bg-yellow-500 pl-3 sm:px-10 pt-10 pb-30">
+    <div class="bg-yellow-500 pl-3 sm:px-10 pt-10 pb-30 mb-30 sm:mb-0">
       <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
       <div class="">
         <div class="">
@@ -21,6 +21,6 @@
         </div>
       </div>
     </div>
-    <img class="m-auto sm:m-0 mb-20 sm:mb-0 w-80 sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
+    <img class="m-auto sm:m-0 -mt-20 mb-20 sm:mb-0 w-80 sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
   </section>
 </template>
