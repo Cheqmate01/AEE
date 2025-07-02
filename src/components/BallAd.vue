@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-1 sm:mx-20 my-10">
+  <div class="mx-5 sm:mx-20 my-10">
     <div>
       <p class="langar-regular text-2xl sm:text-6xl">THE BIG BANG 2025!!!</p>
     </div>
