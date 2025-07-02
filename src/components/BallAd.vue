@@ -1,7 +1,7 @@
 <template>
   <div class="mx-5 sm:mx-20 mt-6 mb-20 sm:my-10">
     <div>
-      <p class="langar-regular text-5xl sm:text-6xl">THE BIG BANG 2025!!!</p>
+      <p class="langar-regular text-3xl sm:text-6xl">THE BIG BANG 2025!!!</p>
     </div>
     <div class="sm:flex sm:justify-between bg-transparent">
       <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-20 overflow-hidden fill-current text-yellow-200 invisible sm:visible">
