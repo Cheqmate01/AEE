@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-3 mx-20 my-10 sm:my-24 auto-rows-fr items-stretch">
+  <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-3 mx-7 mb-20 sm:my-24 auto-rows-fr items-stretch">
     <div>
       <img class="block rounded-lg h-full w-full object-cover" src="/collage-pic-long.jpg" alt="" loading="lazy">
     </div>
