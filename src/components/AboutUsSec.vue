@@ -21,6 +21,6 @@
         </div>
       </div>
     </div>
-    <img class="m-auto sm:m-0 -mt-20 mb-20 sm:mb-0 w-80 sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
+    <img class="m-auto sm:m-0 mb-20 sm:mb-0 w-80 sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
   </section>
 </template>
