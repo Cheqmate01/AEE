@@ -17,7 +17,7 @@
             </a>
           </button>
         </div>
-        <img class="w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
+        <img class="w-full sm:w-3/5 overflow-y-visible" src="/picture1.jpg" alt="">
       </div>
     </div>
   </section>

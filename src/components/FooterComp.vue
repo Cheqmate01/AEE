@@ -1,5 +1,5 @@
 <template>
-  <div id="footer" class="flex flex-col bg-black text-white px-10 py-6">
+  <div id="footer" class="flex flex-col bg-black text-white p-5 sm:px-10 py-6">
     <div class="flex flex-col langar-regular items-start gap-4">
       <button class="w-fit hover:text-yellow-300 transition-colors duration-300 bd-txt"><a href="/about-us">ABOUT US</a></button>
       <button class="w-fit hover:text-yellow-300 transition-colors duration-300 bd-txt"><a href="/contact-us">ENQUIRIES</a></button>
@@ -55,7 +55,7 @@
     <div class="my-4 pb-8">
       <p class="text-gray-400 text-sm">© 2023 Ajayi Elebire Elite | All Rights Reserved</p>
       <a class="text-gray-400 text-sm" href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by rang - Flaticon</a>
-      <p class="text-gray-400 text-sm">Site development by <a href="" target="_blank" class="text-yellow-500 hover:text-yellow-300 transition-colors duration-300">Raven Inc. - Dr. Ukwueze</a><a class="text-yellow-500 hover:text-yellow-300 text-sm float-right transition-colors duration-300" href="#page-top">Back to Top ↑</a></p>
+      <p class="text-gray-400 text-sm">Site development by <a href="" target="_blank" class="text-yellow-500 hover:text-yellow-300 transition-colors duration-300">Raven Inc. - Dr. Ukwueze</a><a class="text-yellow-500 hover:text-yellow-300 text-sm float-right transition-colors duration-300 space-x-4" href="#page-top">Back to Top ↑</a></p>
     </div>
   </div>
 </template>
