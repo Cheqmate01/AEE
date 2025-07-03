@@ -4,7 +4,7 @@
       <p class="langar-regular text-3xl sm:text-6xl">THE BIG BANG 2025!!!</p>
     </div>
     <div class="sm:flex sm:justify-between bg-transparent">
-      <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-20 overflow-hidden fill-current text-yellow-200 invisible sm:visible">
+      <svg  xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-20 overflow-hidden fill-current text-yellow-200 invisible sm:visible">
         <g>
           <image href="/basketball.png" width="512" height="512" />
           <animateMotion
