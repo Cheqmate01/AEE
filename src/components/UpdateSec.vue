@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white py-20 space-y-10">
+  <div class="bg-yellow-500 text-black py-20 space-y-10">
     <h1 class="langar-regular ml-10 mb-4 text-3xl sm:text-7xl">UPDATES
       <!-- <p class="float-right mr-10 text-sm text-yellow-500 hover:text-yellow-300">
         <a class="transition-colors duration-300" href="/updates">More Updates</a>
