@@ -4,7 +4,7 @@
     <button>
       <a class="flex flex-row gap-hover" href="/register">
         <span class="langar-regular text-xl text-yellow-500 hover:text-yellow-300 transition-colors duration-300">REGISTER NOW</span>
-        <img class="self-start" src="/right-arrow-black.png" width="32" alt="">
+        <i class="fi fi-br-arrow-small-right"></i>
       </a>
     </button>
   </div>

@@ -23,9 +23,9 @@
         </p>
         <strong class="mt-4">Take your first step toward greatness!</strong>
         <button class="flex flex-row mt-4">
-          <a class="flex flex-row langar-regular text-xl sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover items-baseline" :href="`/register`">
+          <a class="flex flex-row langar-regular text-xl sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover" :href="`/register`">
             <p class="transition-colors duration-300">REGISTER NOW</p>
-            <img src="/right-arrow-black.png" width="32">
+            <i class="fi fi-br-arrow-small-right"></i>
           </a>
         </button>
       </div>

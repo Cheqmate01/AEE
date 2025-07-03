@@ -1,5 +1,5 @@
 <template>
-  <section class="space-b-10 sm:flex sm:flex-row justify-between">
+  <section class="space-b-10 sm:flex sm:flex-row justify-between mt-10">
     <div class="bg-yellow-500 pl-3 sm:px-10 pt-10 pb-32 sm:mb-0">
       <h1 class="langar-regular text-3xl sm:text-7xl font-black mb-4">ABOUT US</h1>
       <div class="">
@@ -12,7 +12,7 @@
               Our mission is to mold young athletes into quality players and human beings, instilling the significance of fundamentals on and off the court as the stomping ground.
             </p>
             <button>
-              <a class="flex flex-row mt-10 langar-regular text-xl sm:text-2xl hover:text-gray-800 gap-hover items-start" href="/about-us">
+              <a class="flex flex-row mt-10 langar-regular text-xl sm:text-2xl hover:text-gray-800 gap-hover" href="/about-us">
                 <p class="transition-colors duration-300">LEARN MORE</p>
                 <i class="fi fi-br-arrow-small-right"></i>
               </a>
