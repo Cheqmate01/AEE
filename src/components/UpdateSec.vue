@@ -10,7 +10,7 @@
         <img v-if="update.event_picture" class="w-full" :src="`${update.event_picture}`" alt="">
         <p v-if="update.event_date" class="langar-regular">{{ update.event_date }}</p>
         <h1 class="text-xl font-bold mb-4">{{ update.event_theme }}</h1>
-        <p v-if="update.description" class="mb-4">{{ update.description }}</p>
+        <p v-if="update.description" class="mb-4" style="width: 100%;">{{ update.description }}</p>
       </div>
     </div>
   </div>
