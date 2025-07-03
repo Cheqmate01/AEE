@@ -53,10 +53,10 @@
             </div>
           </div>
           <div>
-            <label class="block text-sm leading-5 font-medium text-gray-700">Weight (lbs)</label>
+            <label class="block text-sm leading-5 font-medium text-gray-700">Weight (kg)</label>
             <div class="mt-1">
               <input class="form-input w-full border border-gray-400 outline-yellow-500" required="" type="range"
-                value="" min="100" max="400" step="1" v-model="weight" />
+                value="" min="45" max="180" step="1" v-model="weight" />
               <span class="ml-2 test-sm font-semibold">{{ weight }}</span>
             </div>
           </div>
@@ -76,7 +76,7 @@
             <label class="block text-sm leading-5 font-medium text-gray-700">Shoe Size</label>
             <div class="mt-1">
               <input class="form-input w-full border border-gray-400 outline-yellow-500" v-model="shoeSize" required="" type="range"
-                value="" min="4" max="12" step="0.5" />
+                value="" min="4" max="18" step="0.5" />
               <span class="ml-2 test-sm font-semibold">{{ shoeSize }}</span>
             </div>
           </div>
@@ -126,7 +126,7 @@ const email = ref('')
 const mobileNumber = ref('')
 const jerseySize = ref('')
 const shoeSize = ref(9)
-const weight = ref(160)
+const weight = ref(80)
 const height = ref(6)
 const passportPreview = ref(null)
 const fullPreview = ref(null)
