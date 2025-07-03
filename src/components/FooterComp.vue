@@ -8,7 +8,7 @@
         <form action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="flex flex-row border border-yellow-500 my-4 w-full">
           <input type="text" name="_subject" value="New Newsletter Subscription" class="hidden">
           <input type="email" name="email" id="" class="bg-black px-4 py-2 outline-none w-full" placeholder="Enter your email">
-          <button class="text-black flex flex-row items-center justify-center bg-yellow-500 px-4 py-2 hover:bg-yellow-300 active:bg-yellow-300 transition-colors duration-300">
+          <button type="submit" :submit="useAlertStore.setMessage('Done.')" class="text-black flex flex-row items-center justify-center bg-yellow-500 px-4 py-2 hover:bg-yellow-300 active:bg-yellow-300 transition-colors duration-300">
             Subscribe
             <img src="/right-arrow-black.png" width="20" alt="">
           </button>
@@ -64,3 +64,7 @@
   font-size: 25px;
 }
 </style>
+
+<script setup>
+import { useAlertStore } from '@/stores/alertStore';
+</script>
