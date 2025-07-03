@@ -25,7 +25,7 @@
         <button class="flex flex-row mt-4">
           <a class="flex flex-row langar-regular text-xl sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover" :href="`/register`">
             <p class="transition-colors duration-300">REGISTER NOW</p>
-            <i class="fi fi-br-arrow-small-right"></i>
+            <i class="fi fi-br-arrow-small-right self-center text-black"></i>
           </a>
         </button>
       </div>

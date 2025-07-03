@@ -14,7 +14,7 @@
             <button>
               <a class="flex flex-row mt-10 langar-regular text-xl sm:text-2xl hover:text-gray-800 gap-hover" href="/about-us">
                 <p class="transition-colors duration-300">LEARN MORE</p>
-                <i class="fi fi-br-arrow-small-right"></i>
+                <i class="fi fi-br-arrow-small-right self-center text-black"></i>
               </a>
             </button>
           </div>
