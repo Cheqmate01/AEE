@@ -23,7 +23,7 @@
         </p>
         <strong class="mt-4">Take your first step toward greatness!</strong>
         <button class="flex flex-row mt-4">
-          <a class="flex flex-row langar-regular text-xl sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover-sm sm:gap-hover" :href="`/register`">
+          <a class="flex flex-row langar-regular text-xl sm:text-2xl text-yellow-500 hover:text-yellow-300 gap-hover" :href="`/register`">
             <p class="transition-colors duration-300">REGISTER NOW</p>
             <i class="fi fi-br-arrow-small-right self-baseline text-black"></i>
           </a>
@@ -41,11 +41,7 @@
 .gap-hover:hover {
   gap: 1.5rem;
 }
-.gap-hover-sm {
-  gap: 0.5rem;
-  transition: gap 0.3s;
-}
-.gap-hover-sm:active {
+.gap-hover:active {
   gap: 1.5rem;
   outline: none;
 }

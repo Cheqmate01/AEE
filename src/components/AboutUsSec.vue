@@ -12,7 +12,7 @@
               Our mission is to mold young athletes into quality players and human beings, instilling the significance of fundamentals on and off the court as the stomping ground.
             </p>
             <button>
-              <a class="flex flex-row mt-10 langar-regular text-xl sm:text-2xl hover:text-gray-800 gap-hover-sm sm:gap-hover" href="/about-us">
+              <a class="flex flex-row mt-10 langar-regular text-xl sm:text-2xl hover:text-gray-800 gap-hover" href="/about-us">
                 <p class="transition-colors duration-300">LEARN MORE</p>
                 <i class="fi fi-br-arrow-small-right self-baseline text-black"></i>
               </a>

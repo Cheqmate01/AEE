@@ -1,7 +1,7 @@
 <template>
   <div class="mb-32 mx-10">
     <div class="my-10 items-center text-center">
-      <p class="langar-regular text-6xl">THE BIG BANG 2025!!!</p>
+      <p class="langar-regular text-3xl sm:text-6xl">REGISTRATION</p>
     </div>
     <form @submit.prevent="submitForm" class="max-w-sm mx-auto mt-6">
       <div>
@@ -63,7 +63,7 @@
           <div>
             <label class="block text-sm leading-5 font-medium text-gray-700">Jersey Size</label>
             <div class="mt-1 focus:border-yellow-500 text-sm font-semibold">
-              <select class="form-input outline-none w-full border border-gray-400 border-l-0 border-t-0 border-r-4 rounded-md pl-3 py-1 outline-none focus:border-yellow-500 text-sm font-semibold" v-model="jerseySize" required="" type="text" value="">
+              <select class="form-input outline-none w-full border border-gray-400 border-l-0 border-t-0 border-r-4 rounded-md pl-3 py-1 focus:border-yellow-500 text-sm font-semibold" v-model="jerseySize" required="" type="text" value="">
                 <option class="ml-2 text-sm font-semibold" value=""></option>
                 <option class="ml-2 text-sm font-semibold" value="s">S</option>
                 <option class="ml-2 text-sm font-semibold" value="l">L</option>

@@ -1,6 +1,9 @@
 <template>
   <div class="mb-32 mt-10 mx-10">
     <form action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="max-w-sm mx-auto mt-6">
+      <div class="my-10 items-center text-center">
+        <p class="langar-regular text-3xl sm:text-6xl">ENQUIRY</p>
+      </div>
       <div>
         <div class="grid grid-cols-2 gap-3">
           <div>
