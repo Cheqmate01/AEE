@@ -5,7 +5,7 @@
       <button class="w-fit hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300 bd-txt"><a href="/contact-us">ENQUIRIES</a></button>
       <div class="space-y-0 w-full sm:w-2/5">
         <p class="bd-txt">NEWSLETTER</p>
-        <form action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="flex flex-row border border-yellow-500 my-4 w-full">
+        <form ref="newsletterForm" @submit.prevent="handleNewsletterSubscription" action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="flex flex-row border border-yellow-500 my-4 w-full">
           <input type="text" name="_subject" value="New Newsletter Subscription" class="hidden">
           <input type="email" name="email" id="" class="bg-black px-4 py-2 outline-none w-full" placeholder="Enter your email">
           <button type="submit" :submit="useAlertStore.setMessage('Done.')" class="text-black flex flex-row items-center justify-center bg-yellow-500 px-4 py-2 hover:bg-yellow-300 active:bg-yellow-300 transition-colors duration-300">
@@ -68,5 +68,30 @@
 </style>
 
 <script setup>
-import { useAlertStore } from '@/stores/alertStore';
+import { ref } from 'vue';
+import { useAlertStore } from '@/stores/alert';
+
+const newsletterForm = ref(null);
+const alert = useAlertStore();
+
+async function handleNewsletterSubmit(e) {
+  // Submit the form using fetch to FormSubmit
+  const form = newsletterForm.value
+  const formData = new FormData(form)
+  try {
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    if (response.ok) {
+      alert.setMessage('Subscribed successfully!')
+      form.reset()
+    } else {
+      alert.setError('Subscription failed. Please try again.')
+    }
+  } catch {
+    alert.setError('Network error. Please try again.')
+  }
+}
 </script>
