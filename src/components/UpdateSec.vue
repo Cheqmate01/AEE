@@ -5,8 +5,8 @@
         <a class="transition-colors duration-300" href="/updates">More Updates</a>
       </p> -->
     </h1>
-    <img class="w-full" src="/update-addendum.jpg" alt="">
     <div class="sm:grid sm:grid-cols-3 items-start gap-2 sm:gap-6 mx-3 sm:mx-6 space-y-14 sm:space-y-0">
+      <img class="w-full" src="/update-addendum.jpg" alt="">
       <div v-for="update in updates" :key="update.id" class="space-y-4 wrap-break-words">
         <img v-if="update.event_picture" class="w-full" :src="`${update.event_picture}`" alt="">
         <p v-if="update.event_date" class="langar-regular">{{ update.event_date }}</p>
