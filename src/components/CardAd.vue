@@ -2,9 +2,9 @@
   <div>
     <div class="bg-black text-yellow-500">
       <img class="w-full" src="/head-image.jpg" alt="">
-      <a class="langar-regular text-xl">
+      <a class="langar-regular text-3xl">
         Past Events
-        <i class="fi fi-br-arrow-small-right self-baseline text-black my-auto"></i>
+        <i class="fi fi-br-arrow-small-right my-auto"></i>
       </a>
     </div>
     <div>
