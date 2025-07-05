@@ -39,7 +39,7 @@ const router = createRouter({
       component: PastEvents
     },
     {
-      path: 'community-engagement',
+      path: '/community-engagement',
       name: 'CommunityEngagement',
       component: CommunityEngagement
     }
