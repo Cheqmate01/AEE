@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[url(/head-image.jpg)] w-full h-dvh">
-    <span class="w-full h-full"></span>
+  <div>
+    <img class="block w-full h-dvh object-cover" src="/head-image.jpg" alt="">
   </div>
 </template>
