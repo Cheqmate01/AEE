@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="space-y-10">
     <div class="bg-black text-yellow-500">
       <img class="w-full" src="/head-image.jpg" alt="">
       <a class="langar-regular text-3xl py-10 ml-4 hover:text-yellow-300 gap-hover active:text-yellow-300 transition-colors duration-300" href="/past-events">
