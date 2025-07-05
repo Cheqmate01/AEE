@@ -3,6 +3,8 @@ import HomeView from '@/views/HomeView.vue';
 import PlayerRegistration from '@/views/PlayerRegView.vue';
 import AboutView from '@/views/AboutView.vue';
 import ContactUs from '@/views/ContactUs.vue';
+import PastEvents from '@/views/PastEventsView.vue';
+import CommunityEngagement from '@/views/CommunityEngagementView.vue';
 
 const router = createRouter({
   history: createWebHistory('/'),
@@ -31,6 +33,16 @@ const router = createRouter({
       name: 'ContactUs',
       component: ContactUs
     },
+    {
+      path: '/past-events',
+      name: 'PastEvents',
+      component: PastEvents
+    },
+    {
+      path: 'community-engagement',
+      name: 'CommunityEngagement',
+      component: CommunityEngagement
+    }
   ]
 });
 
