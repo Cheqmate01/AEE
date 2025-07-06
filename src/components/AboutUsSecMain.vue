@@ -47,16 +47,16 @@
           Olalekan Ajayi believes we as the stewards of the village must decide if we are going to invest in the
           construction of the children or invest in the deconstruction of the adults.</p>
         <div class="grid grid-flow-row flex-cols-3 gap-1 mt-10 auto-rows-fr items-end justify-center custom-rows">
-          <div class="flex flex-col gap-1">
+          <div class="">
             <img class="self-start object-cover w-full aspect-square rounded-lg" src="/founder-pic-2.jpg" alt="">
             <img class="self-start object-cover w-full aspect-square rounded-lg" src="/founder-pic-3.jpg" alt="">
           </div>
-          <div class="flex flex-col gap-1">
+          <div class="">
             <img class="self-start object-cover w-full aspect-square rounded-lg" src="/founder-pic-4.jpg" alt="">
             <img class="self-start object-cover w-full aspect-square rounded-lg" src="/founder-pic-5.jpg" alt="">
             <img class="self-start object-cover w-full aspect-square rounded-lg" src="/founder-pic-6.jpg" alt="">
           </div>
-          <div class="flex flex-col gap-1">
+          <div class="">
             <img class="self-start object-cover w-full aspect-square rounded-lg" src="/founder-pic-7.jpg" alt="">
           </div>
         </div>
