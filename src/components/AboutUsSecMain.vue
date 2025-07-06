@@ -18,7 +18,7 @@
           <img class="self-start" src="/father-pic-3.jpg" alt="">
           <img src="/father-pic-4.jpg" alt="">
           <img class="self-start" src="/father-pic-5.jpg" alt="">
-          <img src="/father-pic-1.jpg" alt="">
+          <img class="row-span-2" src="/father-pic-1.jpg" alt="">
           <!-- <img class="self-start" src="/founder-pic-7.jpg" alt=""> -->
         </div>
       </div>
@@ -51,8 +51,8 @@
           <img class="self-start" src="/founder-pic-3.jpg" alt="">
           <img src="/founder-pic-4.jpg" alt="">
           <img class="self-start" src="/founder-pic-5.jpg" alt="">
-          <img src="/founder-pic-6.jpg" alt="">
-          <img class="self-start" src="/founder-pic-7.jpg" alt="">
+          <img class="row-span-2" src="/founder-pic-6.jpg" alt="">
+          <img class="self-start row-start-3 col-start-2" src="/founder-pic-7.jpg" alt="">
         </div>
       </div>
     </div>

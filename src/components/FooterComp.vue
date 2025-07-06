@@ -39,7 +39,7 @@
         <li>
           <a title="Follow on TikTok" href="https://www.tiktok.com/@ajayielebireelite?_t=ZM-8xiFZAx6S0L&_r=1" target="_blank">
             <div>
-              <i class="fa-brands fa-tiktok fa-lg hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300"></i>
+              <i class="fa-brands fa-tiktok fa-2xl hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300"></i>
             </div>            
           </a>
         </li>

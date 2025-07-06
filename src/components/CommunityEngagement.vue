@@ -8,7 +8,7 @@
     </div>
     <div class="mx-10 my-10 space-y-10">
       <img src="/charity-pic-1.PNG" alt="">
-      <div class="sm:grid sm:grid-cols-2 items-start gap-6">
+      <div class="sm:grid sm:grid-cols-2 items-start sm:gap-6 space-y-10">
         <p>We are dedicated to providing support and resources to vulnerable communities, promoting education, health, economic & youth empowerments and promoting community development and social welfare.</p>
         <video class="block w-full object-cover" src="/charity-vid-2.MP4" autoplay muted loop></video>
       </div>
