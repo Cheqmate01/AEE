@@ -13,12 +13,12 @@
           someone who doesn't have anyone to tie him down doesn't run mad. Before he passed away, he asked Olalekan to
           help people, so Olalekan decided to create a legacy in the name of his father that could impact many lives
           throughout the continent of Africa and the entire world.</p>
-        <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-1 mt-10 -mb-32 auto-rows-fr items-end justify-center">
-          <img src="/father-pic-2.jpg" alt="">
-          <img class="self-start" src="/father-pic-3.jpg" alt="">
-          <img src="/father-pic-4.jpg" alt="">
-          <img class="self-start" src="/father-pic-5.jpg" alt="">
-          <img class="row-span-2" src="/father-pic-1.jpg" alt="">
+        <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-1 mt-10 auto-rows-fr items-end justify-center">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/father-pic-2.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/father-pic-3.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/father-pic-4.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/father-pic-5.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg row-span-3" src="/father-pic-1.jpg" alt="">
           <!-- <img class="self-start" src="/founder-pic-7.jpg" alt=""> -->
         </div>
       </div>
@@ -46,13 +46,13 @@
           such as poverty, social immobility, and unemployment that exist across many societies around the world;
           Olalekan Ajayi believes we as the stewards of the village must decide if we are going to invest in the
           construction of the children or invest in the deconstruction of the adults.</p>
-        <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-1 mt-10 -mb-32 auto-rows-fr items-end justify-center">
-          <img src="/founder-pic-2.jpg" alt="">
-          <img class="self-start" src="/founder-pic-3.jpg" alt="">
-          <img src="/founder-pic-4.jpg" alt="">
-          <img class="self-start" src="/founder-pic-5.jpg" alt="">
-          <img class="row-span-2" src="/founder-pic-6.jpg" alt="">
-          <img class="self-start row-start-3 col-start-2" src="/founder-pic-7.jpg" alt="">
+        <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-1 mt-10 auto-rows-fr items-end justify-center">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-2.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-3.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-4.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-5.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg row-span-2" src="/founder-pic-6.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg row-start-3 col-start-2" src="/founder-pic-7.jpg" alt="">
         </div>
       </div>
     </div>
