@@ -61,6 +61,6 @@
 
 <style>
 .custom-rows {
-  grid-template-rows: h-fit h-48 h-fit;
+  grid-template-rows: h-fit 20% h-fit;
 }
 </style>
