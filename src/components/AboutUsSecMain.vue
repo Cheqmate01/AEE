@@ -49,7 +49,7 @@
         <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-1 mt-10 auto-rows-fr items-end justify-center">
           <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-2.jpg" alt="">
           <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-3.jpg" alt="">
-          <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-4.jpg" alt="">
+          <img class="object-cover w-full aspect-square rounded-lg row-start-1 col-start-2" src="/founder-pic-4.jpg" alt="">
           <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-5.jpg" alt="">
           <img class="object-cover w-full aspect-square rounded-lg row-span-2" src="/founder-pic-6.jpg" alt="">
           <img class="object-cover w-full aspect-square rounded-lg row-start-3 col-start-2" src="/founder-pic-7.jpg" alt="">

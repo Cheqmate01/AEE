@@ -11,7 +11,7 @@
     <div class="sm:grid sm:grid-cols-3 items-start gap-2 sm:gap-6 mx-3 sm:mx-6 space-y-14 sm:space-y-0">
       <div v-for="update in updates" :key="update.id" class="space-y-4 wrap-break-words">
         <img v-if="update.event_picture" class="w-full" :src="`${update.event_picture}`" alt="">
-        <p v-if="update.event_date" class="langar-regular">{{ update.event_date }}</p>
+        <p v-if="update.event_date" class="langar-regular text-yellow-500">{{ update.event_date }}</p>
         <h1 class="text-xl font-bold mb-4">{{ update.event_theme }}</h1>
         <p v-if="update.description" class="mb-4 text-justify" style="width: 100%;">{{ update.description }}</p>
       </div>
