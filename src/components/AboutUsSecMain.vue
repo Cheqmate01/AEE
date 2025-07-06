@@ -46,7 +46,7 @@
           such as poverty, social immobility, and unemployment that exist across many societies around the world;
           Olalekan Ajayi believes we as the stewards of the village must decide if we are going to invest in the
           construction of the children or invest in the deconstruction of the adults.</p>
-        <div class="grid grid-flow-row grid-cols-3 gap-1 mt-10 auto-rows-fr items-end justify-center">
+        <div class="grid grid-flow-row grid-rows-3 grid-cols-3 gap-1 mt-10 auto-rows-fr items-end justify-center">
           <img class="object-cover w-full aspect-square rounded-lg" src="/founder-pic-2.jpg" alt="">
           <img class="object-cover w-full aspect-square rounded-lg row-start-2" src="/founder-pic-3.jpg" alt="">
           <img class="object-cover w-full aspect-square rounded-lg row-start-1 col-start-2" src="/founder-pic-4.jpg" alt="">
