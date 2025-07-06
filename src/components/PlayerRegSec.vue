@@ -104,9 +104,9 @@
         <div></div>
       </div>
       <div class="mt-6"><button
-          class="group flex items-center justify-center rounded-full border font-medium py-2 focus:outline-hidden hover:bg-yellow-500 transition-colors duration-300 w-full"
+          class="group flex items-center justify-center rounded-full border font-medium py-2 w-full"
           type="submit">
-          <div class="">Sign Up</div>
+          <a class="hover:bg-yellow-500 active:bg-yellow-500 transition-colors duration-300">Sign Up</a>
         </button></div>
     </form>
   </div>

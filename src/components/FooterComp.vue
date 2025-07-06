@@ -1,8 +1,8 @@
 <template>
   <div id="footer" class="flex flex-col bg-black text-white p-5 sm:px-10 py-6">
     <div class="flex flex-col langar-regular items-start gap-4">
-      <button class="w-fit hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300 bd-txt"><a href="/about-us">ABOUT US</a></button>
-      <button class="w-fit hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300 bd-txt"><a href="/contact-us">ENQUIRIES</a></button>
+      <button class="w-fit bd-txt"><a class="hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300 " href="/about-us">ABOUT US</a></button>
+      <button class="w-fit bd-txt"><a class="hover:text-yellow-500 active:text-yellow-300 text-white transition-colors duration-300 " href="/contact-us">ENQUIRIES</a></button>
       <div class="space-y-0 w-full sm:w-2/5">
         <p class="bd-txt">NEWSLETTER</p>
         <form ref="newsletterForm" @submit.prevent="handleNewsletterSubscription" action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="flex flex-row border border-yellow-500 my-4 w-full">
