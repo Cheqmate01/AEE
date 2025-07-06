@@ -1,6 +1,6 @@
 <template>
   <div class="mb-32 mt-10 mx-10">
-    <form action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="max-w-sm mx-auto mt-6">
+    <form ref="enquiryForm" @submit.prevent="handleEnquirySubmission" action="https://formsubmit.co/ajayielebireelite@gmail.com" method="post" class="max-w-sm mx-auto mt-6">
       <div class="my-10 items-center text-center">
         <p class="langar-regular text-3xl sm:text-6xl">ENQUIRY</p>
       </div>
@@ -46,10 +46,41 @@
         <div></div>
       </div>
       <div class="mt-6"><button
-          class="group flex items-center justify-center rounded-full border font-medium py-2 w-full"
+          class="group flex items-center justify-center rounded-full border font-medium py-2 w-full hover:bg-yellow-500 active:bg-yellow-500 transition-colors duration-300"
           type="submit">
-          <a class="hover:bg-yellow-500 active:bg-yellow-500 transition-colors duration-300">Sign Up</a>
+          <div class="">Sign Up</div>
         </button></div>
     </form>
   </div>
 </template>
+
+
+<script setup>
+
+import { ref } from 'vue';
+import { useAlertStore } from '@/stores/alert';
+
+const enquiryForm = ref(null);
+const alert = useAlertStore();
+
+async function handleEnquirySubmission(e) {
+  // Submit the form using fetch to FormSubmit
+  const form = enquiryForm.value
+  const formData = new FormData(form)
+  try {
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    if (response.ok) {
+      alert.setMessage('Subscribed successfully!')
+      form.reset()
+    } else {
+      alert.setError('Subscription failed. Please try again.')
+    }
+  } catch {
+    alert.setError('Network error. Please try again.')
+  }
+}
+</script>
