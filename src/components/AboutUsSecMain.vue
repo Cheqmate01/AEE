@@ -53,7 +53,7 @@
           <img class="self-start object-cover w-full aspect-square rounded-lg row-start-2 col-start-2" src="/founder-pic-5.jpg" alt="">
           <img class="self-start object-cover w-full aspect-square rounded-lg row-span-2" src="/founder-pic-6.jpg" alt="">
           <img class="self-start object-cover w-full aspect-square rounded-lg -mt-10 sm:-mt-28 row-start-3 col-start-2" src="/founder-pic-7.jpg" alt="">
-          <img class="self-start object-cover w-full aspect-square rounded-lg -mt-[17rem] sm:-mt-52" src="/founder-pic-8.jpg" alt="">
+          <img class="self-start object-cover w-full aspect-square rounded-lg -mt-[107rem] sm:-mt-56" src="/founder-pic-8.jpg" alt="">
           <img class="self-start object-cover w-full aspect-square rounded-lg -mt-10 sm:-mt-28" src="/founder-pic-9.jpg" alt="">
         </div>
       </div>
