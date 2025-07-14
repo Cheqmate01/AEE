@@ -109,6 +109,10 @@
           <div class="">Sign Up</div>
         </button></div>
     </form>
+    <div v-if="popupMessage" class="popup" :class="{ success: isSuccess }">
+      <p>{{ popupMessage }}</p>
+      <button @click="closePopup">Close</button>
+    </div>
   </div>
 </template>
 
@@ -131,6 +135,8 @@ const height = ref(6)
 const passportPreview = ref(null)
 const fullPreview = ref(null)
 const alert = useAlertStore()
+const popupMessage = ref('');
+const isSuccess = ref(false);
 
 
 function readPicturePass(event) {
@@ -180,6 +186,8 @@ async function submitForm() {
     const data = await response.json();
     if (response.ok) {
       alert.setMessage(data.message || 'Registration successful!');
+      popupMessage.value = 'Registration successful!';
+      isSuccess.value = true;
     } else {
       let errorMsg = '';
       if (data.detail) {
@@ -190,9 +198,17 @@ async function submitForm() {
         errorMsg = 'There was an error. Please try again.';
       }
       alert.setError(errorMsg);
+      popupMessage.value = 'Registration failed. Please try again.';
+      isSuccess.value = false;
     }
   } catch (e) {
     alert.setError('Network error. Please try again.');
+    popupMessage.value = `Error: ${error.message}`;
+    isSuccess.value = false;
   }
 }
+
+const closePopup = () => {
+  popupMessage.value = '';
+};
 </script>
