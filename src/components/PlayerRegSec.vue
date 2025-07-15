@@ -187,7 +187,7 @@ async function submitForm() {
       } else if (data.phone_number && data.phone_number[0]) {
         errorMsg = data.phone_number[0];
       } else {
-        errorMsg = data.detail || 'The email or phone number is already registered.';
+        errorMsg = data.detail || 'The email and phone number are already registered.';
       }
       alert.setError(errorMsg);
     } else {

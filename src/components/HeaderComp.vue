@@ -4,8 +4,8 @@
       <button>
         <a href="/"><img src="/IMG_2789.JPEG" width="80" alt=""></a>
       </button>
-      <div v-if="alert.message" class="bg-green-500 text-white text-center rounded-lg p-2 absolute m-auto">{{ alert.message }}</div>
-      <div v-if="alert.error" class="bg-red-500 text-white text-center rounded-lg p-2 absolute m-auto">{{ alert.error }}</div>
+      <div v-if="alert.message" class="bg-green-500 text-white text-center rounded-lg p-2 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">{{ alert.message }}</div>
+      <div v-if="alert.error" class="bg-red-500 text-white text-center rounded-lg p-2 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">{{ alert.error }}</div>
     </div>
     <span id="page-top"></span>
     <div id="height-maintain-block" class="h-20 my-4"></div>
