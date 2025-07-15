@@ -116,6 +116,8 @@
 <script setup>
 import { ref } from 'vue'
 import { useAlertStore } from '@/stores/alert'
+import { useRouter } from 'vue-router'
+
 const passportFile = ref(null)
 const fullFile = ref(null)
 const firstName = ref('')
@@ -131,6 +133,7 @@ const height = ref(6)
 const passportPreview = ref(null)
 const fullPreview = ref(null)
 const alert = useAlertStore()
+const router = useRouter()
 
 
 function readPicturePass(event) {
@@ -180,6 +183,9 @@ async function submitForm() {
     const data = await response.json();
     if (response.ok) {
       alert.setMessage(data.message || 'Registration successful!');
+      setTimeout(() => {
+        router.push('/');
+      }, 3000);
     } else if (response.status === 400) {
       let errorMsg = '';
       if (data.email && data.email[0]) {
